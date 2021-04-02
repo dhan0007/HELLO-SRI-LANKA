@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Hello Sri Lanka</string>
+
+    <string name="lankawiki">
+        <a href="https://en.wikipedia.org/wiki/Sri_Lanka">wikipidia</a>
+    </string>
+    <string name="lankainfo">
+        <a href="https://www.gov.lk/welcome.html">more info</a>
+    </string>
+
+
+    <string-array name="provinces">
+        <item>SELECT PROVINCE</item>
+        <item>WESTERN</item>
+        <item>EASTERN</item>
+        <item>SOUTHERN</item>
+        <item>CENTRAL</item>
+        <item>NORTH CENTRAL</item>
+        <item>NORTH WESTERN</item>
+        <item>UWA</item>
+        <item>SABARAGAMUWA</item>
+    </string-array>
+
+    <string-array name="days">
+        <item>SELECT NO. OF DAYS</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+    <string-array name="feeedbacktypes">
+        <item>Possitive </item>
+        <item>Negative</item>
+    </string-array>
+
+    <string-array name="registertypes">
+        <item>HOTEL</item>
+        <item>DRIVER</item>
+        <item>GUIDER</item>
+    </string-array>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawe</string>
+
+
+</resources>

@@ -1,0 +1,195 @@
+<resources>
+    <string name="app_name">travel planner app</string>
+    <string name="places_and_hotels">Places and hotels</string>
+    <string name="guides_and_drivers">guides and drivers</string>
+    <string name="western_provines">western provines</string>
+    <string name="places_string">Places</string>
+    <string name="places_subheading">places_subheading</string>
+    <string name="places">places</string>
+    <string name="galle_face">Galle FaceGalle Face is a 5 ha ocean-side urban park,
+        which stretches for 500 m along the coast, in the heart of Colombo,the financial and business capital of Sri Lanka.
+        The promenade was initially laid out in 1859 by Governor Sir Henry George Ward, although the original Galle Face Green extended over a much larger area than is seen today.
+        The Galle Face Green was initially used for horse racing and as a golf course, but was also used for cricket, polo, football, tennis and rugby</string>
+    <string name="title_activity_main4">MainActivity4</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="text">
+        <a href="https://www.anantara.com/en/kalutara?utm_source=GoogleMyBusiness&amp;utm_medium=GMB&amp;utm_term=ANKalutara&amp;utm_content=Home&amp;utm_campaign=Google_GMB">Ananthara Hotel Link</a>
+    </string>
+
+    <string name="linktomap">
+    <a href="https://goo.gl/maps/2FSd1p9jwTsPSoun6">Galle Face Direction</a>
+    </string>
+
+    <string name="linktodirection">
+    <a href="https://goo.gl/maps/TWFM6oMVsbqmjeWK8">Gangaramaya Temple Direction</a>
+    </string>
+
+    <string name="Viharamahadeviparklink">
+    <a href="https://goo.gl/maps/1o6DFkQyh9CP5egJA">Viharamahadevi Park Direction</a>
+    </string>
+
+    <string name="avanilinktomap">
+    <a href="https://www.google.com/travel/hotels/Sri%20Lanka/entity/CgoI8LKFzq6q7bp3EAE?g2lb=2502548%2C2503781%2C4258168%2C4270442%2C4306835%2C4317915%2C4328159%2C4371335%2C4401769%2C4419364%2C4463666%2C4482438%2C4486153%2C4491350%2C4511371%2C4523592%2C4270859%2C4284970%2C4291517&amp;hl=en-LK&amp;gl=lk&amp;ssta=1&amp;ap=aAE&amp;q=western%20province%20hotels%20and%20restaurants&amp;rp=EMakqL-Fj9vWqgEQ8LKFzq6q7bp3ENeO0amt_vXJShCMn7yn_s691MABOAFAAEgCogEQV2VzdGVybiBQcm92aW5jZcABA8gBAA&amp;ictx=1&amp;ved=0CAAQ5JsGahcKEwiQ3ajJssPvAhUAAAAAHQAAAAAQAg&amp;utm_campaign=sharing&amp;utm_medium=link&amp;utm_source=htls&amp;ts=CAESABogCgIaABIaEhQKBwjlDxAEGA8SBwjlDxAEGBAYATICEAAqEAoMCgEISgIgAToDTEtSGgA">Anani Kalutara Restoer</a>
+    </string>
+
+    <string name="Sigiriyalinktomap">
+    <a href="https://goo.gl/maps/viJt15bHyC5frLV29">sigiriyalinktomap</a>
+    </string>
+
+    <string name="dabullalinktomap">
+    <a href="https://goo.gl/maps/BZov1DZ5XBAze78T9">dabullalinktomap</a>
+    </string>
+
+    <string name="dhaladamaligawalinktomap">
+    <a href="https://g.page/sridaladamaligawa?share">dhaladamaligawalinktomap</a>
+    </string>
+
+    <string name="grandkandyanlinktomap">
+    <a href="https://goo.gl/maps/X8piYAEJcrgzuHJ27">grandkandyanlinktomap</a>
+    </string>
+
+    <string name="hotellagonelinktomap">
+    <a href="https://goo.gl/maps/ZdCKDPFvTstsK81m9">hotellagonelinktomap</a>
+    </string>
+
+    <string name="arugambaylinktomap">
+    <a href="https://goo.gl/maps/a2wYUSP1M3LsrHy56">arugambaylinktomap</a>
+    </string>
+
+    <string name="koneshwaramlinktomap">
+    <a href="https://goo.gl/maps/v5ywiGJU49XUAcjN9">koneshwaramlinktomap</a>
+    </string>
+
+    <string name="batticaloalinktomap">
+    <a href="https://goo.gl/maps/Jw3d2t57nJ6pfr6G9">batticaloalinktomap</a>
+    </string>
+
+    <string name="baybeachlinktomap">
+    <a href="https://goo.gl/maps/bNfhiB18ovumHyRb9">baybeachlinktomap</a>
+    </string>
+
+    <string name="junglebeachlinktomap">
+    <a href="https://goo.gl/maps/KEAgG6ut9RLXmMA3A">junglebeachlinktomap</a>
+    </string>
+
+    <string name="galviharayalinktomap">
+    <a href="https://goo.gl/maps/SHYBkK3BFGMx5A5W7">galviharayalinktomap</a>
+    </string>
+
+    <string name="hatadagelinktomap">
+    <a href="https://goo.gl/maps/SHYBkK3BFGMx5A5W7">hatadagelinktomap</a>
+    </string>
+
+    <string name="minneriyalinktomap">
+    <a href="https://goo.gl/maps/QKQX8QxoHmoswMPV6">minneriyalinktomap</a>
+    </string>
+
+    <string name="habaranavillagelinktomap">
+    <a href="https://goo.gl/maps/QKQX8QxoHmoswMPV6">habaranavillagelinktomap</a>
+    </string>
+
+    <string name="giritalehotellinktomap">
+    <a href="https://goo.gl/maps/yM9kg52w4vy9SrBD6">giritalehotellinktomap</a>
+    </string>
+
+    <string name="ridiviharayalinktomap">
+    <a href="https://goo.gl/maps/PZwhhLKVa61RDTQQ7">ridiviharayalinktomap</a>
+    </string>
+
+    <string name="wilpattulinktomap">
+    <a href="https://goo.gl/maps/VpbBs4opZVwt7Vh27">wilpattulinktomap</a>
+    </string>
+
+    <string name="resweheralinktomap">
+    <a href="https://goo.gl/maps/G4SdczhEoAmnqFFy8">resweheralinktomap</a>
+    </string>
+
+    <string name="rosharalinktomap">
+    <a href="https://goo.gl/maps/CUdLU2BEH4Dr6CUTA">rosharalinktomap</a>
+    </string>
+
+    <string name="anantayaresortlinktomap">
+    <a href="https://g.page/anantaya?share">anantayaresortlinktomap</a>
+    </string>
+
+    <string name="gallefortlinktomap">
+    <a href="https://goo.gl/maps/YWN8t2GwRj6vPPZLA">gallefortlinktomap</a>
+    </string>
+
+    <string name="sinharajalinktomap">
+    <a href="https://goo.gl/maps/kx7MueFbnGatE3GP8">sinharajalinktomap</a>
+    </string>
+
+    <string name="hummanayalinktomap">
+    <a href="https://goo.gl/maps/eT9WpSJh6G7QdY7y7">hummanayalinktomap</a>
+    </string>
+
+    <string name="littletamarindlinktomap">
+    <a href="https://goo.gl/maps/Tiv6y7uF9XxvAWsa8">littletamarindlinktomap</a>
+    </string>
+
+    <string name="layasafarilinktomap">
+    <a href="https://goo.gl/maps/CVGaW13DXE5eoAkCA">layasafarilinktomap</a>
+    </string>
+
+    <string name="jaffnafortlinktomap">
+    <a href="https://goo.gl/maps/PmY6LpBWEzi48UXw8">jaffnafortlinktomap</a>
+    </string>
+
+    <string name="nagadeepalinktomap">
+    <a href="https://goo.gl/maps/bFuJ5ZaEQ2VdNCMc6">nagadeepalinktomap</a>
+    </string>
+
+    <string name="mannarlinktomap">
+    <a href="https://goo.gl/maps/exvQYPfBRsnYvchf9">mannarlinktomap</a>
+    </string>
+
+    <string name="jetwinglinktomap">
+    <a href="https://goo.gl/maps/Xbp5Cq6jKsMyhoXk8">jetwinglinktomap</a>
+    </string>
+
+    <string name="valampurilinktomap">
+    <a href="https://goo.gl/maps/euoo2j6ireFsWnvu9">valampurilinktomap</a>
+    </string>
+
+    <string name="pinnawalalinktomap">
+    <a href="https://goo.gl/maps/3B3dkiGM5JUezWVYA">pinnawalalinktomap</a>
+    </string>
+
+    <string name="belilenalinktomap">
+    <a href="https://goo.gl/maps/v4pqUoHxHitMkEBa9">belilenalinktomap</a>
+    </string>
+
+    <string name="bogalavillagelinktomap">
+    <a href="https://goo.gl/maps/8TrkQKTNKgpJkYWR8">bogalavillagelinktomap</a>
+    </string>
+
+    <string name="ahasgawwalinktomap">
+    <a href="https://goo.gl/maps/gmv2Bjs5S6j8apHs8">ahasgawwalinktomap</a>
+    </string>
+
+    <string name="ravanafallslinktomap">
+    <a href="https://g.page/ravana-falls--ella?share">ravanafallslinktomap</a>
+    </string>
+
+    <string name="ninearchlinktomap">
+    <a href="https://goo.gl/maps/bjfFDzwffmekjEU76">ninearchlinktomap</a>
+    </string>
+
+    <string name="oakraylinktomap">
+    <a href="https://goo.gl/maps/o4gQg8iZrdvpTrmH8">oakraylinktomap</a>
+    </string>
+
+    <string name="livinglinktomap">
+    <a href="https://goo.gl/maps/GdbAs768qm6y7ZnF8">livinglinktomap</a>
+    </string>
+
+
+</resources>

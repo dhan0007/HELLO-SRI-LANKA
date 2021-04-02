@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".southern_p_places">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="212dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="409dp"
+                android:layout_height="52dp"
+                android:background="#009688"
+                android:text="         southern Province"
+                android:textColor="#351308"
+                android:textSize="30sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.389"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="3dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="412dp"
+                android:layout_height="38dp"
+                android:background="#4251f5"
+                android:text="      Places"
+                android:textSize="24sp"
+                tools:layout_editor_absoluteX="-3dp"
+                tools:layout_editor_absoluteY="56dp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="241dp"
+                android:layout_height="33dp"
+                android:text="      Galle Fort"
+                android:textColor="#071251"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="32dp"
+                tools:layout_editor_absoluteY="112dp" />
+
+            <ImageView
+                android:id="@+id/imageView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/galledutch" />
+
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="373dp"
+                android:layout_height="292dp"
+                android:text="Galle Fort, in the Bay of Galle on the southwest coast of Sri Lanka, was built first in 1588 by the Portuguese,
+ then extensively fortified by the Dutch during the 17th century from 1649 onwards. It is a historical, archaeological and architectural
+ heritage monument, which even after more than 432 years maintains a polished appearance, due to extensive reconstruction work done
+by Archaeological Department of Sri Lanka. The fort has a colourful history, and today has a multi-ethnic and multi-religious population.
+The Sri Lankan government and many Dutch people who still own some of the properties inside the
+fort are looking at making this one of the modern wonders of the world. The heritage value of the fort
+ has been recognized by the UNESCO and the site has been inscribed as a cultural heritage UNESCO World Heritage
+ Site under criteria iv, for its unique exposition of an urban ensemble which illustrates the interaction of
+ European architecture and South Asian traditions from the 16th to the 19th centuries. The Galle Fort, also known
+ as the Dutch Fort or the Ramparts of Galle, withstood the Boxing Day tsunami which damaged part of coastal area Galle town"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="32dp"
+                tools:layout_editor_absoluteY="367dp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/gallefortlinktomap"
+                android:textColor="#2196F3"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="321dp"
+                android:layout_height="33dp"
+                android:text="      Sinharaja Forest Reserve"
+                android:textColor="#071251"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="32dp"
+                tools:layout_editor_absoluteY="112dp" />
+
+            <ImageView
+                android:id="@+id/imageView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/sinharaja" />
+
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="376dp"
+                android:layout_height="292dp"
+                android:text="Sinharaja Forest Reserve is a forest reserve and a biodiversity hotspot in Sri Lanka. It is of international significance and has been designated a Biosphere Reserve and World Heritage Site by UNESCO. According to International Union for Conservation of Nature, Sinharaja is the country's last viable area of primary tropical rainforest. More than 60% of the trees are endemic and many of them are considered rare. 50% of Sri Lankan's endemics species of animals. It is home to 95% endemic birds. The hilly virgin rainforest, part of the Sri Lanka lowland
+ rain forests ecoregion, was saved from the worst of commercial logging by its inaccessibility,
+ and was designated a World Biosphere Reserve in 1978 and a World Heritage Site in 1988. Because
+of the dense vegetation, wildlife is not as easily seen as at dry-zone national parks such as Yala.
+There are about 3 elephants, and 15 or so leopards. The most common larger mammal is the endemic
+purple-faced langur. Birds tend to move in mixed feeding flocks, invariably led by the fearless
+ Sri Lanka Crested Drongo and the noisy orange-billed babbler"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="32dp"
+                tools:layout_editor_absoluteY="367dp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sinharajalinktomap"
+                android:textColor="#2196F3"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="321dp"
+                android:layout_height="33dp"
+                android:text="      Hummanaya Blowhole"
+                android:textColor="#071251"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="32dp"
+                tools:layout_editor_absoluteY="112dp" />
+
+            <ImageView
+                android:id="@+id/imageView26"
+                android:layout_width="match_parent"
+                android:layout_height="330dp"
+                app:srcCompat="@drawable/hummanaya" />
+
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="374dp"
+                android:layout_height="292dp"
+                android:text="Hummanaya Blowhole is the only known blowhole in Sri Lanka and it is considered to be the second largest blowhole in the world. Hummanaya refers to the noise, hoo, that can be heard a distance away when the blowhole is active"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="32dp"
+                tools:layout_editor_absoluteY="367dp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hummanayalinktomap"
+                android:textColor="#2196F3"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:background="#604098"
+                android:text="      Hotels"
+                android:textColor="#071251"
+                android:textSize="24sp"
+                tools:layout_editor_absoluteX="32dp"
+                tools:layout_editor_absoluteY="112dp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Little Thamarind"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/littletamarind" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textSize="18dp"
+                android:gravity="center"
+                android:textColor="@android:color/holo_blue_light"
+                android:text="@string/littletamarindlinktomap"
+                android:id="@+id/textView14"
+                />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Laya Safari"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/layasafari" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textSize="18dp"
+                android:gravity="center"
+                android:textColor="@android:color/holo_blue_light"
+                android:text="@string/layasafarilinktomap"
+                android:id="@+id/textView15"
+                />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

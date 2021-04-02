@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MAINMENU"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:id="@+id/drawer"
+        app:headerLayout="@layout/nav_header"
+        app:menu="@menu/nav_drawer_menu"
+        android:layout_gravity="start">
+    </com.google.android.material.navigation.NavigationView>
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/Toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        app:navigationIcon="@drawable/menu">
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="50dp">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="50dp"></Space>
+        <Button
+            android:id="@+id/SRILANKA"
+            android:layout_width="340dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="#4251f5"
+            android:textColor="#fff"
+            android:textSize="25dp"
+            android:text="ABOUT SRI LANKA"
+            tools:layout_editor_absoluteX="35dp"
+            tools:layout_editor_absoluteY="60dp" />
+
+        <Button
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:id="@+id/PLACES"
+        android:layout_width="340dp"
+        android:layout_height="160dp"
+            android:background="#4251f5"
+            android:textColor="#fff"
+            android:textSize="25dp"
+        android:text="PLACES"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="285dp" />
+
+        <Button
+            android:id="@+id/BUDGET"
+            android:layout_width="340dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="#4251f5"
+            android:text="TRIP BUDGET PLANNER"
+            android:textColor="#fff"
+            android:textSize="25dp"
+            tools:layout_editor_absoluteX="33dp"
+            tools:layout_editor_absoluteY="516dp" />
+    </LinearLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>

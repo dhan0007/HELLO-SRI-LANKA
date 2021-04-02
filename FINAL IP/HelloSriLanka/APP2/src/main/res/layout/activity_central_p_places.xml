@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".central_p_places">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="212dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="409dp"
+                android:layout_height="52dp"
+                android:background="#009688"
+                android:text="         Central Province"
+                android:textColor="#351308"
+                android:textSize="30sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.389"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="3dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="412dp"
+                android:layout_height="38dp"
+                android:background="#4251f5"
+                android:text="      Places"
+                android:textSize="24sp"
+                tools:layout_editor_absoluteX="-3dp"
+                tools:layout_editor_absoluteY="56dp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="107dp"
+                android:layout_height="33dp"
+                android:text="        Sigiriya"
+                android:textColor="#071251"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="32dp"
+                tools:layout_editor_absoluteY="112dp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/imagess" />
+
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="349dp"
+                android:text="Sigiriya or Sinhagiri is an ancient rock fortress located in the northern Matale District near the town of Dambulla in the Central
+Province, Sri Lanka. The name refers to a site of historical and archaeological significance that is dominated by a massive column of
+rock nearly 200 metres high. According to the ancient Sri Lankan chronicle the Culavamsa, this site was selected by King Kashyapa for
+his new capital. He built his palace on the top of this rock and decorated its sides with colourful frescoes. On a small plateau about
+ halfway up the side of this rock he built a gateway in the form of an enormous lion. The name of this place is derived from this
+structure — Sīnhāgiri, the Lion Rock. The capital and the royal palace was abandoned after the king's death. It was used as a Buddhist
+monastery until the 14th century. Sigiriya today is a UNESCO listed World Heritage Site.
+ It is one of the best preserved examples of ancient urban planning"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="32dp"
+                tools:layout_editor_absoluteY="367dp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sigiriyalinktomap"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Sigiriyalinktomap"
+                android:textColor="#2196F3"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="319dp"
+                android:layout_height="46dp"
+                android:text="      Dambulla cave temple"
+                android:textColor="#071251"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="32dp"
+                tools:layout_editor_absoluteY="112dp" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/imagesaa" />
+
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="292dp"
+                android:text="Dambulla cave temple also known as the Golden Temple of Dambulla is a World Heritage Site in Sri Lanka,
+situated in the central part of the country. This site is situated 148 kilometres east of Colombo,
+72 kilometres north of Kandy and 43 km north of Matale Dambulla is the largest and best-preserved cave temple complex in Sri Lanka.
+The rock towers 160 m over the surrounding plains. There are more than 80 documented caves in the surrounding area.
+Major attractions are spread over five caves, which contain statues and paintings.
+ These paintings and statues are related to Gautama Buddha and his life. There are a total of 153 Buddha statues,
+ three statues of Sri Lankan kings and four statues of gods and goddesses. The latter include Vishnu and the Ganesha.
+The murals cover an area of 2,100 square metres. Depictions on the walls of the caves include the temptation by the demon Mara,
+ and Buddha's first sermon. Prehistoric Sri Lankans would have lived in these cave complexes before the arrival of Buddhism in
+Sri Lanka as there are burial sites with human skeletons about 2700 years old in this area, at Ibbankatuwa near the Dambulla
+cave complexes"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="32dp"
+                tools:layout_editor_absoluteY="367dp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dabullalinktomap"
+                android:textColor="#2196F3"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="321dp"
+                android:layout_height="33dp"
+                android:text="      Sri Dalada Maligawa"
+                android:textColor="#071251"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="32dp"
+                tools:layout_editor_absoluteY="112dp" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/dhalada" />
+
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="401dp"
+                android:layout_height="292dp"
+                android:text="Sri Dalada Maligawa or the Temple of the Sacred Tooth Relic is a Buddhist temple in the city of Kandy,
+ Sri Lanka. It is located in the royal palace complex of the former Kingdom of Kandy,
+which houses the relic of the tooth of the Buddha. Since ancient times,
+the relic has played an important role in local politics because it is believed
+that whoever holds the relic holds the governance of the country.
+ Kandy was the last capital of the Sri Lankan kings and is a World Heritage Site mainly due to the temple.
+Bhikkhus of the two chapters of Malwatte and Asgiriya conduct daily worship in the inner chamber of the temple.
+Rituals are performed three times daily: at dawn, at noon and in the evenings. On Wednesdays,
+ there is a symbolic bathing of the relic with a herbal preparation made from scented water and
+fragrant flowers called Nanumura Mangallaya. This holy water is believed to contain healing powers
+and is distributed among those present. The temple sustained damage from bombings by Janatha Vimukthi
+Peramuna in 1989 and by Liberation Tigers of Tamil Eelam in 1998 but was fully restored each time"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="32dp"
+                tools:layout_editor_absoluteY="367dp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dhaladamaligawalinktomap"
+                android:textColor="#2196F3"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:background="#604098"
+                android:text="      Hotels"
+                android:textColor="#071251"
+                android:textSize="24sp"
+                tools:layout_editor_absoluteX="32dp"
+                tools:layout_editor_absoluteY="112dp" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Grand Kandyan Hotel"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/kandyan" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textSize="18dp"
+                android:gravity="center"
+                android:textColor="@android:color/holo_blue_light"
+                android:text="@string/grandkandyanlinktomap"
+                android:id="@+id/textView13" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hotel Lagone Kandy"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/hotellagone" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textSize="18dp"
+                android:gravity="center"
+                android:textColor="@android:color/holo_blue_light"
+                android:text="@string/hotellagonelinktomap"
+                android:id="@+id/textView14" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

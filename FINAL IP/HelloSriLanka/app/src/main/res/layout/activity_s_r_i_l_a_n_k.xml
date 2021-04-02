@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SRILANKA">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="132dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Democratic Socialist Republic of Sri Lanka"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="28dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="ශ්‍රී ලංකා ප්‍රජාතාන්ත්‍රික සමාජවාදී ජනරජය"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="15dp"></TextView>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:layout_width="123dp"
+                    android:layout_height="65dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="49dp"
+                    android:src="@drawable/_25px_flag_of_sri_lanka_svg">
+                </ImageView>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="97dp"
+                    android:src="@drawable/_0px_emblem_of_sri_lanka_svg">
+                </ImageView>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:stretchColumns="0,1,"
+                    android:layout_margin="10dp">
+                    <TableRow>
+                        <TextView
+                            android:text="CAPITAL"
+                            android:textSize="15dp"
+                            android:textStyle="bold"
+                            android:gravity="center">
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Sri Jayawardenepura Kotte"
+                            android:textSize="15dp">
+
+                        </TextView>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:text="OFFICIAL LANGUAGES"
+                            android:textSize="15dp"
+                            android:textStyle="bold"
+                            android:gravity="center">
+                        </TextView>
+                        <TextView
+                            android:text="SINHALA,TAMIL"
+                            android:textSize="15dp">
+                        </TextView>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:text="Recognised languages"
+                            android:textSize="15dp"
+                            android:textStyle="bold"
+                            android:gravity="center">
+                        </TextView>
+                        <TextView
+                            android:text="ENGLISH"
+                            android:textSize="15dp">
+                        </TextView>
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="RELIGION"
+                            android:textSize="15dp"
+                            android:textStyle="bold"></TextView>
+
+                        <TextView
+                            android:layout_width="209dp"
+                            android:layout_height="match_parent"
+                            android:text="BUDDHISM, HINDUISM, ISLAM, CHRISTIANITY"
+                            android:textSize="15dp"></TextView>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:text="GOVERNMENT"
+                            android:textSize="15dp"
+                            android:textStyle="bold">
+                        </TextView>
+                        <TextView
+                            android:text="Unitary Semi-President"
+                            android:textSize="15dp">
+                        </TextView>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:text="LEGISTRATION"
+                            android:textSize="15dp"
+                            android:textStyle="bold">
+                        </TextView>
+                        <TextView
+                            android:text="Parliament"
+                            android:textSize="15dp">
+                        </TextView>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:text="PRESIDENT"
+                            android:textSize="15dp"
+                            android:textStyle="bold">
+                        </TextView>
+                        <TextView
+                            android:text="Mr.Gotabaya Rajapaksha"
+                            android:textSize="15dp">
+                        </TextView>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:text="PRIME MINISTER"
+                            android:textSize="15dp"
+                            android:textStyle="bold">
+                        </TextView>
+                        <TextView
+                            android:text="Mr.Mahinda Rajapaksha"
+                            android:textSize="15dp">
+                        </TextView>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:text="SPEAKER OF THE PARLIMENT"
+                            android:textSize="15dp"
+                            android:textStyle="bold">
+                        </TextView>
+                        <TextView
+                            android:text="Mr.Mahinda Yapa"
+                            android:textSize="15dp">
+                        </TextView>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:text="CHIEF JUSTICE"
+                            android:textSize="15dp"
+                            android:textStyle="bold">
+                        </TextView>
+                        <TextView
+                            android:text="Mr.Jayalath Jayasuriya"
+                            android:textSize="15dp">
+                        </TextView>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:text="CURRENCY"
+                            android:textSize="15dp"
+                            android:textStyle="bold">
+                        </TextView>
+                        <TextView
+                            android:text="Sri Lankan Rupee(Rs)/(LKR)"
+                            android:textSize="15dp">
+                        </TextView>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:text="TIME ZONE"
+                            android:textSize="15dp"
+                            android:textStyle="bold">
+                        </TextView>
+                        <TextView
+                            android:text="UTC +5:30(SLST)"
+                            android:textSize="15dp">
+                        </TextView>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:text="DRIVING SIDE"
+                            android:textSize="15dp"
+                            android:textStyle="bold">
+                        </TextView>
+                        <TextView
+                            android:text="LEFT"
+                            android:textSize="15dp">
+                        </TextView>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:text="CALLING CODE"
+                            android:textSize="15dp"
+                            android:textStyle="bold">
+                        </TextView>
+                        <TextView
+                            android:text="+94"
+                            android:textSize="15dp">
+                        </TextView>
+                    </TableRow>
+                </TableLayout>
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="270dp"
+                android:src="@drawable/provinces"
+                android:layout_gravity="center">
+
+            </ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:linksClickable="true"
+                android:text="@string/lankawiki"
+                android:gravity="center">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:linksClickable="true"
+                android:text="@string/lankainfo"
+                android:gravity="center">
+            </TextView>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".guide_and_drivers_northern">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="411dp"
+                android:layout_height="52dp"
+                android:background="#D6BABA"
+                android:text="  Northern Province Guide and Drivers"
+                android:textSize="24sp"
+                tools:layout_editor_absoluteX="-3dp"
+                tools:layout_editor_absoluteY="-1dp" />
+
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="107dp"
+                android:layout_height="28dp"
+                android:text="   Guide"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="34dp"
+                tools:layout_editor_absoluteY="74dp" />
+
+            <ImageView
+                android:id="@+id/imageView47"
+                android:layout_width="313dp"
+                android:layout_height="177dp"
+                app:srcCompat="@drawable/aashan" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="268dp"
+                android:layout_height="39dp"
+                android:text="   Shan Pubudu"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="34dp"
+                tools:layout_editor_absoluteY="114dp" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="260dp"
+                android:layout_height="36dp"
+                android:text="   shan255572@gmail.com"
+                tools:layout_editor_absoluteX="34dp"
+                tools:layout_editor_absoluteY="158dp" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="266dp"
+                android:layout_height="50dp"
+                android:text="   077255572"
+                tools:layout_editor_absoluteX="34dp"
+                tools:layout_editor_absoluteY="203dp" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="126dp"
+                android:layout_height="26dp"
+                android:text="   Guide"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="34dp"
+                tools:layout_editor_absoluteY="280dp" />
+
+
+            <ImageView
+                android:id="@+id/imageView51"
+                android:layout_width="323dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/aaniroshan" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="263dp"
+                android:layout_height="41dp"
+                android:text="   Niroshan Dileepa"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="34dp"
+                tools:layout_editor_absoluteY="319dp" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="251dp"
+                android:layout_height="36dp"
+                android:text="   niroshan@gmail.com"
+                tools:layout_editor_absoluteX="34dp"
+                tools:layout_editor_absoluteY="363dp" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="255dp"
+                android:layout_height="41dp"
+                android:text="   0710870982"
+                tools:layout_editor_absoluteX="34dp"
+                tools:layout_editor_absoluteY="406dp" />
+
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="94dp"
+                android:layout_height="23dp"
+                android:text="   Driver"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="34dp"
+                tools:layout_editor_absoluteY="501dp" />
+
+            <ImageView
+                android:id="@+id/imageView52"
+                android:layout_width="335dp"
+                android:layout_height="197dp"
+                app:srcCompat="@drawable/aakusal" />
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="263dp"
+                android:layout_height="39dp"
+                android:text="   Kusal Madushan"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="34dp"
+                tools:layout_editor_absoluteY="545dp" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="185dp"
+                android:layout_height="42dp"
+                android:text="   kusal@gmail.com"
+                tools:layout_editor_absoluteX="34dp"
+                tools:layout_editor_absoluteY="588dp" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="188dp"
+                android:layout_height="38dp"
+                android:text="   0746163068"
+                tools:layout_editor_absoluteX="34dp"
+                tools:layout_editor_absoluteY="628dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

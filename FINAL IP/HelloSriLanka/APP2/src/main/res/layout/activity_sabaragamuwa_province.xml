@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#743f51b5"
+    tools:context=".sabaragamuwa_province">
+
+    <Button
+        android:id="@+id/Places"
+        android:layout_width="271dp"
+        android:layout_height="102dp"
+        android:text="@string/places_and_hotels"
+        android:textColor="#fff"
+        android:textColorLink="#B23F51B5"
+        android:textSize="18sp"
+        app:backgroundTint="#4251f5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.435"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.335" />
+
+    <TextView
+        android:id="@+id/provines"
+        android:layout_width="415dp"
+        android:layout_height="60dp"
+        android:background="#4251f5"
+        android:rotationY="2"
+        android:text="      Sabaragamuwa Province"
+        android:textSize="30sp"
+        app:autoSizeTextType="none"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="270dp"
+        android:layout_height="104dp"
+        android:text="@string/guides_and_drivers"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        app:backgroundTint="#4251f5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.432"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.652" />
+
+    <androidx.constraintlayout.helper.widget.Layer
+        android:id="@+id/layer"
+        android:layout_width="388dp"
+        android:layout_height="31dp"
+        android:background="#2F1D2020"
+        app:constraint_referenced_ids="provines"
+        app:layout_constraintEnd_toEndOf="@+id/provines"
+        tools:layout_editor_absoluteY="0dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

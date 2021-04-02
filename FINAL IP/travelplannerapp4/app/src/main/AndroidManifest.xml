@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.travelplannerapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TravelPlannerApp">
+        <activity android:name=".guide_and_drivers_sabaragamu"></activity>
+        <activity android:name=".guide_and_drivers_uva" />
+        <activity android:name=".guide_and_drivers_northern" />
+        <activity android:name=".guide_and_drivers_southern" />
+        <activity android:name=".guide_and_drivers_NorthCentral" />
+        <activity android:name=".guide_and_driversnorthcentral" />
+        <activity android:name=".guide_and_drivers__northwestern" />
+        <activity android:name=".guid_and_drivers_eastern" />
+        <activity android:name=".eastern_guides_and_drivers" />
+        <activity android:name=".guide_and_drivers_central" />
+        <activity android:name=".guide_and_drivers_west1" />
+        <activity android:name=".guide_and_drivers_west" />
+        <activity android:name=".uva_p_places" />
+        <activity android:name=".sabaragamuwa_p_places" />
+        <activity android:name=".northern_p_places" />
+        <activity android:name=".northern_province_p" />
+        <activity android:name=".testing" />
+        <activity android:name=".southern_p_places" />
+        <activity android:name=".north_western_p_places" />
+        <activity android:name=".north_central_p_places" />
+        <activity android:name=".eastern_p_places" />
+        <activity android:name=".central_p_places" />
+        <activity android:name=".eastern_province" />
+        <activity android:name=".uva_province" />
+        <activity android:name=".sabaragamuwa_province" />
+        <activity android:name=".north_western_province" />
+        <activity android:name=".northern_province" />
+        <activity android:name=".southern_province" />
+        <activity android:name=".northcentral_province" />
+        <activity android:name=".central_provice" />
+        <activity
+            android:name=".MainActivity4"
+            android:label="@string/title_activity_main4"
+            android:theme="@style/Theme.TravelPlannerApp.NoActionBar" />
+        <activity android:name=".MainInActivity3" />
+        <activity android:name=".MainActivity2" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

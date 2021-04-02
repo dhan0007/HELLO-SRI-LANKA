@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "146704285771",
+    "project_id": "hello-sri-lanka-8d9f8",
+    "storage_bucket": "hello-sri-lanka-8d9f8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:146704285771:android:78394c68f3012e50f78dce",
+        "android_client_info": {
+          "package_name": "com.example.hellosrilanka"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "146704285771-oridi8kvenl7vqd97mbmfg4ceselgsv1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjwN88WLsoQQ1INVn2axk6t1rlIrIYV2Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "146704285771-oridi8kvenl7vqd97mbmfg4ceselgsv1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
